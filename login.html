@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Anime News</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Anime News</h1>
+			<div class="search-bar">
+                <input type="text" placeholder="Search..." class="search-input">
+                <button type="submit" class="search-button">Search</button>
+            </div>
+            <div class="auth-buttons">
+                <a href="login.html" class="login-button">Login</a>
+                <a href="signup.html" class="signup-button">Sign Up</a>
+            </div>
+            <nav>
+               <a href="index.html">Home</a>
+		        <a href="https://mangadex.org/">Manga</a>
+				<a href="https://weebrook.com/">Manhwa</a>                                         
+				<a href="https://9animetv.to/home">Watch Anime</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="login-form">
+                <h2>Login</h2>
+                 <form id="loginForm" onsubmit="return redirectToHome()">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="submit-button">Login</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Anime News. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

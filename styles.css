@@ -1,0 +1,350 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #ff0000;
+	background-image: url("Jujutsu.png"); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffffc2;
+}
+
+header {
+    background-color:#252424;
+    color: #0bf2ff;
+	border-radius: 20px;
+	font-family:  Copperplate;
+    padding: 16px 0;
+    text-align: center;
+    position: relative;
+	font-size: 18px;
+}
+
+
+header .auth-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+
+
+header .auth-buttons a {
+    background-color: #e44d26;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header .auth-buttons a:hover {
+    background-color: blue;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+	
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding:  16px;
+	align-content: card-grid: center;
+}
+
+nav a:hover {
+    color: blue; 
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-color: rgba(224, 224, 224, 0.7);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.news-articles article {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.read-more {
+    color: #e44d26;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+	font-family: copperplate;
+	border-radius: 20px;
+	font-size: 18px;
+    padding: 16px 0;
+    background-color: #252424;
+    color: #fff;
+}
+
+.login-form, .signup-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #252424;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2, .signup-form h2 {
+    text-align: center;
+	font-family: copperplate;
+	font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+	
+}
+
+.form-group label {
+    display: block;
+	font-family: copperplate;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #c63e1f;
+}
+
+
+.search-bar {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-left: 10px; 
+	height: 50px;
+}
+
+.search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 200px; 
+}
+
+.search-button {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: blue;
+}
+
+
+.featured-content {
+    padding: 20px;
+	
+	
+}
+
+.featured-content h2 {
+    text-align: center;
+    margin-bottom: 40px;
+	font-size: 30px;
+	background-color: #252424;
+	border-radius: 20px;
+	padding: 10px;
+	
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+	justify-content: center;
+}
+
+.card {
+    background-color: #ffffee;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+
+	
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 400px; 
+    object-fit: scale-down; 
+    border-radius: 5px 5px 0 0;
+	margin-top: 30px;
+}
+
+.card h3 {
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+	text-align: center;
+}
+.card h3:hover {
+    color: blue; 
+}
+
+.card p {
+    padding: 0 10px 10px;
+    margin: 0;
+    font-size: 16px;
+	text-align: justify;
+}
+
+
+.details {
+    padding: 20px;
+}
+
+.details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.details-content {
+    padding: 20px;
+}
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    justify-content: center; 
+    align-items: center;     
+    padding: 20px;         
+}
+
+.video {
+    margin-bottom: 20px;
+    display: flex;          
+    justify-content: center; 
+    align-items: center;   
+}
+
+.video video {
+    max-width: 100%;       
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*.card-grid1 {
+    display: flex;          
+    flex-direction: column;  
+    align-items: center;    
+}
+
+.card1 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+    width: 45%;            
+    margin-bottom: 10px; 
+	
+}
+
+.card1:hover {
+    transform: translateY(-5px);
+}
+
+.card1 img {
+    width: 100%;            
+    height: 500px;            
+    object-fit: contain;     
+    border-radius: 5px 5px 0 0;
+    display: block;        
+    margin:  auto;       
+    margin-top: 20px;	
+	margin-bottom: 20px;
+}
+
+.card1 h3 {
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;   
+    color:black;	
+	
+}
+
+.card1 p {
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+	text-align: center;  
+	
+}
